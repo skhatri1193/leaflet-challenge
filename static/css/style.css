@@ -1,0 +1,51 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+  /* Legend specific styles */
+  .info.legend {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 15px; /* Increased padding */
+    line-height: 24px;
+    color: #333; /* Darker text for better readability */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 14px;
+    min-width: 180px; /* Ensures the legend has enough space */
+    border: 1px solid #ccc; /* Light gray border */
+  }
+
+  .info.legend h4 {
+    margin: 0 0 10px; /* Add margin below headings */
+    font-size: 16px; /* Slightly larger font size for headings */
+    font-weight: bold; /* Bold headings */
+    text-align: center; /* Centered headings */
+    color: #0056b3; /* Dark blue color for headings */
+  }
+
+  .info.legend i {
+    vertical-align: middle;
+    border-radius: 50%; /* Keeps circles rounded for magnitude section */
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0.8; /* Slightly more opaque */
+  }
+
+  .info.legend .depth {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px; /* Rounded corners for depth colors */
+    margin-right: 10px;
+  }
+
+  .info.legend .magnitude {
+    border-radius: 50%; /* Keeps circles rounded for magnitude section */
+    margin-right: 10px;
+  }
